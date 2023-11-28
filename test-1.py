@@ -4,12 +4,12 @@ from sqlalchemy import create_engine, MetaData, inspect
 import time
 
 # Параметры подключения к PostgreSQL
-pg_user = "postgres"
-pg_password = "37892afeff8e120d714cf5d7b39bdfea"
-pg_host = "95.140.159.144"
-pg_port = '5432'
-pg_db = "energy_db"
-pg_schema = "towers"
+pg_user = ""
+pg_password = ""
+pg_host = ""
+pg_port = ''
+pg_db = ""
+pg_schema = ""
 
 # Параметры подключения к SQLite
 sqlite_db = "test.sqlite"
